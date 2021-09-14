@@ -7,5 +7,7 @@ and for further examples.
 
 *NOTE
 If you would like to edit a full menu already in place, 
-uncomment line 5 of ~/.config/jgmenu/jgmenurc.
+uncomment line 5 of ~/.config/jgmenu/jgmenurc, and then rename
+prepend.csv and append.csv to "prepend.csv.bak" and "append.csv.bak"
+This will keep those as backups if needed.
 You will still need to edit, but may find this menu a bit more complete;)
