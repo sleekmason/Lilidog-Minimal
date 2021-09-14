@@ -8,14 +8,15 @@ Everything is easily accessible, with numerous options to customize.
 
 ### There are currently three versions of Lilidog Available.  See below for features.
 
-- Lilidog-amd64 (Bullseye amd64 full version) - Uses repositories from Debian stable. - These builds will change only when new features <br/>
-are deemed ready for release. 
+- Lilidog-amd64 (Bullseye amd64 full version) -  Has most programs already installed for everyday use. <br/>
+This includes Firefox, Thunderbird, Thunar, Geany, Gpicview, Smplayer, gparted, Synaptic, and Gimp + more!
 
-- Lilidog-Minimal-amd64 - This version contains all of the goodness of Lilidog, while allowing you to choose most all of <br/>
-your OWN packages. Design your system with whatever programs you like! <br/> 
+- Lilidog-Minimal-amd64 - This version contains all of the goodness of Lilidog, <br/>
+while allowing you to choose most all of your OWN packages.<br/> 
+Design your system with whatever programs you like! <br/> 
 Currently contains lxterminal, pcmanfm, and mousepad to get you started. <br/>
 apt update && apt install synaptic for a graphical installer to make things easier. <br/>
-Be prepared to edit the menu if you would like as you add packages to your distro. <br/> 
+Be prepared to edit the menu if necessary as you add packages to your distro. <br/> 
 See Jgmenu.conf in the menu under "configuration" or go to ~/.config/jgmenu/README for details. <br/> 
 
 - Lilidog-i386 (Bullseye 32 bit version) - This version uses a 32 bit i686-pae kernel for older computers and virtual environments. <br/>
@@ -135,14 +136,12 @@ Also look under the "Toggles" section in the menu for some instant changes to di
 
 ### Current Issues/bugs
 
-- Conky doesn not display Ram info or net speed correctly from systemd.  Waiting for update. See htop in terminal for correct values.
 - Xfce4-power-manager does not display the systemtray icon.  Know issue.  Waiting for update.
 
-There is a discussion forum above on Sourceforge as well if you have suggestions or questions!_
-For all the inner workings of Lilidog, and directions to build your own if you so choose:
-Github: https://github.com/sleekmason/Lilidog
+There is a discussion forum on Sourceforge as well if you have suggestions or questions!
+https://sourceforge.net/p/lilidog/discussion/
 
-### Instructions for building your own if you so choose!
+### Instructions for building your own if you so choose:
 
 Open a terminal and:
 ```sh
