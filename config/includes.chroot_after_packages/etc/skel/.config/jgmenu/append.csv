@@ -1,0 +1,29 @@
+^sep()
+Toggles,^checkout(toggles),object-flip-horizontal
+Configuration,^checkout(configuration),preferences-system
+^sep()
+    Restart,       openbox --restart,        /usr/share/icons/ld-icons/pixmaps/logout_reboot.png
+    Exit,                  ld-logout,                 /usr/share/icons/ld-icons/exit4.png
+
+
+^tag(toggles)
+Screenshot,          gnome-screenshot -i,       applets-screenshooter
+Conky,               toggle.conky,              object-flip-horizontal
+Picom,               toggle.picom,              object-flip-horizontal
+Hotcorners,          toggle.ld,                 object-flip-horizontal
+Tint2 Panel,         toggle.tint2,              object-flip-horizontal
+Xkill,               xkill,                     edit-delete
+
+^tag(configuration)
+Settings-Manager,         xfce4-settings-manager,                         system-run
+Power Manager,            xfce4-power-manager-settings,                   applications-system     
+Openbox Conf,             obconf,                                         obconf
+Jgmenu Conf,              geany ~/.config/jgmenu/README & pcmanfm ~/.config/jgmenu,  document-properties
+Conky Conf,               geany ~/.config/conky/conky.conf,               document-properties
+Picom Conf,               geany ~/.config/picom.conf,                     document-properties
+Urxvt Conf,               geany ~/.Xresources,                            utilities-terminal
+Tint2 Conf,               tint2conf,                                      tint2
+Lightdm Conf,             gksudo lightdm-gtk-greeter-settings,            document-properties
+Xbindkeys Conf,           xbindkeys-config,                               applications-utilities
+Dmenu Apps Conf,          geany ~/.config/dmenu/apps,                     document-properties
+Ld-Hotcorners Conf,       geany ~/.config/ld-hotcorners/ld-hotcornersrc,  applications-games

@@ -1,0 +1,14 @@
+#@lxpanel --profile LXDE &
+#pcmanfm --desktop --profile LXDE &
+. $HOME/.fehbg &
+#pnmixer &
+#@xscreensaver -no-splash &
+picom &
+tint2 &
+#fbpanel-alsa &
+#monster-panel &
+xfce4-power-manager &
+xbindkeys &
+nm-applet &
+lxpolkit &
+xfsettingsd --daemon &

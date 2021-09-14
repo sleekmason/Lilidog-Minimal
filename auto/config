@@ -1,0 +1,27 @@
+#!/bin/sh
+
+lb config noauto \
+	 --apt-recommends 'false' \
+     --apt-source-archives 'false' \
+     --apt-indices 'false' \
+     --archive-areas "main contrib non-free" \
+     --debian-installer 'live' \
+     --debian-installer-distribution 'bullseye' \
+     --distribution 'bullseye' \
+     --mirror-binary 'https://deb.debian.org/debian' \
+     --mirror-binary-security 'https://security.debian.org/debian-security' \
+     --mirror-bootstrap 'https://deb.debian.org/debian' \
+     --firmware-binary 'true' \
+     --firmware-chroot 'true' \
+     --security 'true' \
+     --memtest 'none' \
+     --image-name 'Lilidog-Minimal' \
+     --iso-application 'Lilidog-Minimal' \
+     --iso-publisher 'Lilidog-Minimal GNU/Linux' \
+     --iso-volume 'LiliDog-Minimal' \
+     --system 'live' \
+     --updates 'true' \
+     --win32-loader 'false' \
+     --zsync 'false' \
+     --quiet \
+     "${@}"

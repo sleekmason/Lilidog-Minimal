@@ -1,0 +1,11 @@
+##
+Use the prepends.csv file to add items to the TOP of the menu.  
+The format example is: Display-name, program-name, icon-name
+See the lxterminal entry for an example.
+Use ~/.config/jgmenu/append.csv to add items to the END of the menu,
+and for further examples.
+
+*NOTE
+If you would like to edit a full menu already in place, 
+uncomment line 5 of ~/.config/jgmenu/jgmenurc.
+You will still need to edit, but may find this menu a bit more complete;)
