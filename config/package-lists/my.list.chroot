@@ -89,6 +89,7 @@ lsb-release
 lxpolkit
 lxterminal
 manpages
+manpages-dev
 menu
 menu-xdg
 mesa-utils
