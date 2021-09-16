@@ -1,3 +1,4 @@
+adwaita-icon-theme
 alsa-oss
 alsa-utils
 apt-utils
@@ -121,6 +122,7 @@ qt5-style-plugins
 rename
 rsync
 rxvt-unicode
+scrot
 ssft
 squashfs-tools
 suckless-tools
