@@ -44,13 +44,12 @@ Use "image mode" in the live-usb maker when burning the image.
 The boot screen for Lilidog gives a choice of using as a Live session, or installing if you like what you see. <br/>
 Lilidog uses the Debian installer with both text and graphical installs available.
 
-
 Lilidog opens in the Openbox window manager. Easy enough to install fluxbox or others. They will show up in your login screen <br/>
 as options. The username and password for the live environment is "user", and "live" respectively. 
 
 Lilidog: <br/>
 
-[![Lilidog2-Slate.png](https://i.postimg.cc/fLzfRksj/Lilidog2-Slate.png)](https://postimg.cc/McLQs6vv) <br/>
+[![Installer.png](https://i.postimg.cc/6qSpSZNR/Installer.png)](https://postimg.cc/JHN8HG04)
 
 [![Lilidog-Slate.png](https://i.postimg.cc/3J4CRPs6/Lilidog-Slate.png)](https://postimg.cc/SJ4z1tN7) <br/>
 
