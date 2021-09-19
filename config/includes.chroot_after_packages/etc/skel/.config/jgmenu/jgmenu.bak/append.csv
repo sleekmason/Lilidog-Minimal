@@ -15,15 +15,16 @@ Tint2 Panel,         toggle.tint2,              object-flip-horizontal
 Xkill,               xkill,                     edit-delete
 
 ^tag(configuration)
-Settings-Manager,         xfce4-settings-manager,                         system-run
-Power Manager,            xfce4-power-manager-settings,                   applications-system     
-Openbox Conf,             obconf,                                         obconf
+Wallpaper Chooser,        feh-set-wallpaper,                                 feh
+Settings-Manager,         xfce4-settings-manager,                            system-run
+Power Manager,            xfce4-power-manager-settings,                      applications-system     
+Openbox Conf,             obconf,                                            obconf
 Jgmenu Conf,              mousepad ~/.config/jgmenu/README & pcmanfm ~/.config/jgmenu,  document-properties
 Conky Conf,               mousepad ~/.config/conky/conky.conf,               document-properties
-Picom Conf,               mousepad ~/.config/picom.conf,                     document-properties
 Urxvt Conf,               mousepad ~/.Xresources,                            utilities-terminal
-Tint2 Conf,               tint2conf,                                      tint2
-Lightdm Conf,             gksudo lightdm-gtk-greeter-settings,            document-properties
-Xbindkeys Conf,           xbindkeys-config,                               applications-utilities
+Tint2 Conf,               tint2conf,                                         tint2
+Picom Conf,               mousepad ~/.config/picom.conf,                     document-properties
+Lightdm Conf,             gksudo lightdm-gtk-greeter-settings,               document-properties
+Xbindkeys Conf,           xbindkeys-config,                                  applications-utilities
 Dmenu Apps Conf,          mousepad ~/.config/dmenu/apps,                     document-properties
 Ld-Hotcorners Conf,       mousepad ~/.config/ld-hotcorners/ld-hotcornersrc,  applications-games
