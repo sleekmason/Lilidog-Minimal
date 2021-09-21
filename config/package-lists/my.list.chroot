@@ -84,7 +84,6 @@ libinput-tools
 libnotify-bin
 lightdm
 lightdm-gtk-greeter-settings
-linux-image-amd64
 locales
 lsb-release
 lxpolkit
@@ -96,7 +95,6 @@ menu-xdg
 mesa-utils
 mesa-va-drivers
 mesa-vdpau-drivers
-miscfiles
 mousepad
 nano
 ncdu
