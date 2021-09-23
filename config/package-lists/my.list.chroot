@@ -84,6 +84,7 @@ libinput-tools
 libnotify-bin
 lightdm
 lightdm-gtk-greeter-settings
+lm-sensors
 locales
 lsb-release
 lxpolkit
