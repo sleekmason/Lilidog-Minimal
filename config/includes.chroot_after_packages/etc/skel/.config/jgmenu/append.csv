@@ -1,5 +1,6 @@
 ^sep()
 Toggles,^checkout(toggles),object-flip-horizontal
+Utilities,^checkout(utilities),applications-utilities
 Configuration,^checkout(configuration),preferences-system
 ^sep()
     Restart,       openbox --restart,        /usr/share/icons/ld-icons/pixmaps/logout_reboot.png
@@ -7,12 +8,18 @@ Configuration,^checkout(configuration),preferences-system
 
 
 ^tag(toggles)
-Screenshot,          gnome-screenshot -i,       applications-accessories
 Conky,               toggle.conky,              object-flip-horizontal
 Picom,               toggle.picom,              object-flip-horizontal
 Hotcorners,          toggle.ld,                 object-flip-horizontal
 Tint2 Panel,         toggle.tint2,              object-flip-horizontal
 Xkill,               xkill,                     edit-delete
+
+^tag(utilities)
+Screenshot,          gnome-screenshot -i,       applications-accessories
+Htop,               urxvt -e htop,                    htop
+Gparted,            gksudo gparted,                   gparted
+Quick Info,         x-terminal-emulator -T 'inxi -Fxrz' -e bash -c "inxi -Fxrz; echo $'\n\nPress any key to close'; read -srn1",   document-properties
+App-Alternatives,   xfce4-mime-settings,              preferences-system
 
 ^tag(configuration)
 Wallpaper Chooser,        feh-set-wallpaper,                                 feh
