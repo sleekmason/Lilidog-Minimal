@@ -19,6 +19,7 @@ Screenshot,          gnome-screenshot -i,       applications-accessories
 Htop,               urxvt -e htop,                    htop
 Gparted,            gksudo gparted,                   gparted
 Quick Info,         x-terminal-emulator -T 'inxi -Fxrz' -e bash -c "inxi -Fxrz; echo $'\n\nPress any key to close'; read -srn1",   document-properties
+Color Chooser,      yad --color,                      yad
 App-Alternatives,   xfce4-mime-settings,              preferences-system
 
 ^tag(configuration)
@@ -35,3 +36,4 @@ Lightdm Conf,             gksudo lightdm-gtk-greeter-settings,               doc
 Xbindkeys Conf,           xbindkeys-config,                                  applications-utilities
 Dmenu Apps Conf,          mousepad ~/.config/dmenu/apps,                     document-properties
 Ld-Hotcorners Conf,       mousepad ~/.config/ld-hotcorners/ld-hotcornersrc,  applications-games
+Jgmenu Theme Changer,     jgmenu-interactive,                              preferences-desktop-theme
