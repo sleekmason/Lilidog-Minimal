@@ -1,6 +1,6 @@
 Terminal,           lxterminal,       utilities-terminal
 ^sep()
-Thunar,             thunar,           /usr/share/icons/ld-icons/Thunar.png
+Pcmanfm,            pcmanfm,          system-file-manager
 Firefox,            firefox,          firefox-esr
 Thunderbird,        thunderbird,      thunderbird
 ^sep()
