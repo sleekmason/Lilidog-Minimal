@@ -1,4 +1,5 @@
 ^sep()
+Quick Grab,^checkout(quickgrab),applications-other
 Toggles,^checkout(toggles),object-flip-horizontal
 Utilities,^checkout(utilities),applications-utilities
 Configuration,^checkout(configuration),preferences-system
@@ -6,6 +7,21 @@ Configuration,^checkout(configuration),preferences-system
     Restart,       openbox --restart,        /usr/share/icons/ld-icons/pixmaps/logout_reboot.png
     Exit,                  ld-logout,                 /usr/share/icons/ld-icons/exit4.png
 
+^tag(quickgrab)
+Recent Files,^pipe(jgmenu_run ob --cmd="pipe-recent-files",folder
+Root Files,^checkout(rootfiles),folder-documents
+Urxvt,              urxvt,            utilities-terminal
+Pcmanfm,            pcmanfm,          system-file-manager
+Mousepad,           mousepad,         accessories-text-editor
+
+^tag(rootfiles)
+/etc/apt/sources.list,    gksudo geany /etc/apt/sources.list,  folder-documents 
+/usr/share,               gksudo thunar /usr/share,            folder-documents
+/usr/share/fonts,         gksudo thunar /usr/share/fonts,      folder-documents
+/usr/share/icons,         gksudo thunar /usr/share/icons,      folder-documents    
+/usr/share/themes,        gksudo thunar /usr/share/themes,     folder-documents
+/usr/bin,                 gksudo thunar /usr/bin,              folder-documents
+/usr/local/bin,           gksudo thunar /usr/local/bin,        folder-documents
 
 ^tag(toggles)
 Conky,               toggle.conky,              object-flip-horizontal
@@ -18,11 +34,17 @@ Xkill,               xkill,                     edit-delete
 Screenshot,          gnome-screenshot -i,       applications-accessories
 Htop,               urxvt -e htop,                    htop
 Gparted,            gksudo gparted,                   gparted
-Quick Info,         x-terminal-emulator -T 'inxi -Fxrz' -e bash -c "inxi -Fxrz; echo $'\n\nPress any key to close'; read -srn1",   document-properties
+Quick Info,         lxterminal -t 'Inxi Info' -e bash -c "inxi -Fxrz; echo $'\n\nPress any key to close'; read -srn1",   document-properties
 Color Chooser,      yad --color,                      yad
 Kernel Remover,     lxterminal -e 'sudo kernel-remover -G dialog',     edit-cut
 App Alternatives,   xfce4-mime-settings,              preferences-system
 Live USB Maker,     lxterminal -e "sudo live-usb-maker-gui-antix",     gparted
+Extras,             ^checkout(extras),                applications-system
+
+^tag(extras)
+Install VirtualBox,      lxterminal -t 'Virtualbox Installer' -e "virtualbox-installer;   echo $'\n\nPress any key to close.'; read -srn1", applications-utilities
+Install Google Earth,    lxterminal -t 'Google Earth Installer' -e "google-earth-installer; echo $'\n\nPress any key to close.'; read -srn1", applications-utilities
+Install Kernel Packages, lxterminal -t 'Kernel Packages Installer' -e "kernel-apps-installer;  echo $'\n\nPress any key to close.'; read -srn1", applications-utilities
 
 ^tag(configuration)
 Wallpaper Chooser,        feh-set-wallpaper,                                 feh
