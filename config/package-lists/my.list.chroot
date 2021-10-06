@@ -23,6 +23,7 @@ efibootmgr
 eject
 exfat-fuse
 exfat-utils
+extlinux
 f2fs-tools
 feh
 file
@@ -126,6 +127,7 @@ ssft
 squashfs-tools
 suckless-tools
 sudo
+syslinux-common
 tasksel
 tint2
 unzip
