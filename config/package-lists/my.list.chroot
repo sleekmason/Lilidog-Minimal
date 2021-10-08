@@ -1,9 +1,10 @@
 adwaita-icon-theme
 alsa-oss
 alsa-utils
-apt-utils
 amd64-microcode
 anacron
+apt-transport-https
+apt-utils
 at-spi2-core
 b43-fwcutter
 bash-completion
