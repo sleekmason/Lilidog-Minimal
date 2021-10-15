@@ -1,6 +1,6 @@
 Terminal,           lxterminal,       utilities-terminal
 ^sep()
-Thunar,             thunar,           /usr/share/icons/ld-icons/Thunar.png
+Pcmanfm,            pcmanfm,          system-file-manager
 Firefox,            firefox,          firefox-esr
 Thunderbird,        thunderbird,      thunderbird
 ^sep()
@@ -21,7 +21,7 @@ Root Files,^checkout(rootfiles),folder-documents
 Urxvt,              urxvt,            utilities-terminal
 Writer,             libreoffice,      libreoffice-writer
 Geany,              geany,	          geany
-Pcmanfm,            pcmanfm,          system-file-manager
+Thunar,             thunar,           /usr/share/icons/ld-icons/Thunar.png
 Mousepad,           mousepad,         accessories-text-editor
 Newsboat,           urxvt -g 120x40+120+100 -e newsboat,         accessories-text-editor
 Smplayer,           smplayer,         smplayer
