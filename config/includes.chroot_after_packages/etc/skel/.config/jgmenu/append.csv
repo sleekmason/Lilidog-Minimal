@@ -64,3 +64,4 @@ Xbindkeys Conf,           xbindkeys-config,                                  app
 Dmenu Apps Conf,          mousepad ~/.config/dmenu/apps,                     document-properties
 Ld-Hotcorners Conf,       mousepad ~/.config/ld-hotcorners/ld-hotcornersrc,  applications-games
 Jgmenu Theme Changer,     jgmenu-interactive,                              preferences-desktop-theme
+^tag(apps)
