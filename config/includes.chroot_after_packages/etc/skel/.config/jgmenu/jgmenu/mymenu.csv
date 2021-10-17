@@ -18,17 +18,18 @@ Exit,               ld-logout,                 /usr/share/icons/ld-icons/exit4.p
 ^tag(quickgrab)
 Recent Files,^pipe(jgmenu_run ob --cmd="pipe-recent-files",folder
 Root Files,^checkout(rootfiles),folder-documents
-Urxvt,              urxvt,            utilities-terminal
-Writer,             libreoffice,      libreoffice-writer
-Geany,              geany,	          geany
-Thunar,             thunar,           /usr/share/icons/ld-icons/Thunar.png
-Mousepad,           mousepad,         accessories-text-editor
+Urxvt,              urxvt,                 utilities-terminal
+Writer,             libreoffice,           libreoffice-writer
+Geany,              geany,	               geany
+Thunar,             thunar,                /usr/share/icons/ld-icons/Thunar.png
+Mousepad,           mousepad,              accessories-text-editor
 Newsboat,           urxvt -g 120x40+120+100 -e newsboat,         accessories-text-editor
-Smplayer,           smplayer,         smplayer
-Gpicview,           gpicview,         gpicview
-Pragha,             pragha,           pragha
-Gimp,               gimp,             gimp
-Catfish Search,     catfish,          edit-find
+Smplayer,           smplayer,              smplayer
+Gpicview,           gpicview,              gpicview
+Pragha,             pragha,                pragha
+Gimp,               gimp,                  gimp
+Catfish Search,     catfish,               edit-find
+Extras,             ^checkout(extras),     applications-system
 
 ^tag(utilities)
 Screenshot,         gnome-screenshot -i,              preferences-desktop-theme
@@ -43,7 +44,6 @@ Color Chooser,      yad --color,                      yad
 Printer Setup,      lxterminal -e "printer-installer; read -srn1", printer
 Galculator,         galculator,                       galculator
 Synaptic,           gksudo synaptic,                  synaptic
-Extras,             ^checkout(extras),                applications-system
 
 ^tag(extras)
 Install Qemu,            lxterminal -t 'Qemu Installer' -e "qemu-installer;   echo $'\n\nPress any key to close.'; read -srn1", applications-utilities

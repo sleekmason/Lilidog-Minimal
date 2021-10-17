@@ -10,9 +10,10 @@ Configuration,^checkout(configuration),preferences-system
 ^tag(quickgrab)
 Recent Files,^pipe(jgmenu_run ob --cmd="pipe-recent-files",folder
 Root Files,^checkout(rootfiles),folder-documents
-Urxvt,              urxvt,            utilities-terminal
-Pcmanfm,            pcmanfm,          system-file-manager
-Mousepad,           mousepad,         accessories-text-editor
+Urxvt,              urxvt,               utilities-terminal
+Pcmanfm,            pcmanfm,             system-file-manager
+Mousepad,           mousepad,            accessories-text-editor
+Extras,             ^checkout(extras),   applications-system
 
 ^tag(rootfiles)
 /etc/apt/sources.list,    gksudo geany /etc/apt/sources.list,  folder-documents 
@@ -40,7 +41,6 @@ Kernel Remover,     lxterminal -t 'Kernel Remover' -e 'sudo kernel-remover -G di
 App Alternatives,   xfce4-mime-settings,              preferences-system
 Live USB Maker,     lxterminal -t 'Live USB Maker' -e "sudo live-usb-maker-gui-antix",     gparted
 Printer Setup,      lxterminal -e "printer-installer; read -srn1", printer
-Extras,             ^checkout(extras),                applications-system
 
 ^tag(extras)
 Install Qemu,            lxterminal -t 'Qemu Installer' -e "qemu-installer;   echo $'\n\nPress any key to close.'; read -srn1", applications-utilities
