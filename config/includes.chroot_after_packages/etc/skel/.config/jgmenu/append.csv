@@ -35,20 +35,20 @@ Xkill,               xkill,                     edit-delete
 Screenshot,          gnome-screenshot -i,       applications-accessories
 Htop,               urxvt -e htop,                    htop
 Gparted,            gksudo gparted,                   gparted
-Quick Info,         lxterminal -t 'Inxi Info' -e bash -c "inxi -Fxrzm; echo $'\n\nPress any key to close'; read -srn1",   document-properties
+Quick Info,         x-terminal-emulator -t 'Inxi Info' -e bash -c "inxi -Fxrzm; echo $'\n\nPress any key to close'; read -srn1",   document-properties
 Color Chooser,      yad --color,                      yad
-Kernel Remover,     lxterminal -t 'Kernel Remover' -e 'sudo kernel-remover -G dialog',     edit-cut
+Kernel Remover,     x-terminal-emulator -t 'Kernel Remover' -e 'sudo kernel-remover -G dialog',     edit-cut
 App Alternatives,   xfce4-mime-settings,              preferences-system
-Live USB Maker,     lxterminal -t 'Live USB Maker' -e "sudo live-usb-maker-gui-antix",     gparted
-Printer Setup,      lxterminal -e "printer-installer; read -srn1", printer
+Live USB Maker,     x-terminal-emulator -t 'Live USB Maker' -e "sudo live-usb-maker-gui-antix",     gparted
+Printer Setup,      x-terminal-emulator -e "printer-installer; read -srn1", printer
 
 ^tag(extras)
-Install Qemu,            lxterminal -t 'Qemu Installer' -e "qemu-installer;   echo $'\n\nPress any key to close.'; read -srn1", applications-utilities
-Install Steam,           lxterminal -t 'Steam Installer' -e "steam-installer;   echo $'\n\nPress any key to close.'; read -srn1", applications-utilities
-Install Sleek Kernel,    lxterminal -t 'Sleek Kernel Installer' -e "sleek-kernel-installer;  echo $'\n\nPress any key to close.'; read -srn1", applications-utilities
-Install Liquorix Kernel, lxterminal -t 'Liquorix Kernel Installer' -e "liquorix-kernel-installer;  echo $'\n\nPress any key to close.'; read -srn1", applications-utilities
-Install Live-build Apps, lxterminal -t 'Live-build Apps Installer' -e "live-build-apps-installer;  echo $'\n\nPress any key to close.'; read -srn1", applications-utilities
-Install Kernel Packages, lxterminal -t 'Kernel Packages Installer' -e "kernel-apps-installer;  echo $'\n\nPress any key to close.'; read -srn1", applications-utilities
+Install Qemu,            x-terminal-emulator -t 'Qemu Installer' -e "qemu-installer;   echo $'\n\nPress any key to close.'; read -srn1", applications-utilities
+Install Steam,           x-terminal-emulator -t 'Steam Installer' -e "steam-installer;   echo $'\n\nPress any key to close.'; read -srn1", applications-utilities
+Install Sleek Kernel,    x-terminal-emulator -t 'Sleek Kernel Installer' -e "sleek-kernel-installer;  echo $'\n\nPress any key to close.'; read -srn1", applications-utilities
+Install Liquorix Kernel, x-terminal-emulator -t 'Liquorix Kernel Installer' -e "liquorix-kernel-installer;  echo $'\n\nPress any key to close.'; read -srn1", applications-utilities
+Install Live-build Apps, x-terminal-emulator -t 'Live-build Apps Installer' -e "live-build-apps-installer;  echo $'\n\nPress any key to close.'; read -srn1", applications-utilities
+Install Kernel Packages, x-terminal-emulator -t 'Kernel Packages Installer' -e "kernel-apps-installer;  echo $'\n\nPress any key to close.'; read -srn1", applications-utilities
 
 ^tag(configuration)
 Wallpaper Chooser,        feh-set-wallpaper,                                 feh
@@ -64,4 +64,4 @@ Lightdm Conf,             gksudo lightdm-gtk-greeter-settings,               doc
 Xbindkeys Conf,           xbindkeys-config,                                  applications-utilities
 Dmenu Apps Conf,          mousepad ~/.config/dmenu/apps,                     document-properties
 Ld-Hotcorners Conf,       mousepad ~/.config/ld-hotcorners/ld-hotcornersrc,  applications-games
-Jgmenu Theme Changer,     jgmenu-interactive,                              preferences-desktop-theme
+Jgmenu Theme Changer,     x-terminal-emulator -t 'Jgmenu Interactive' -e "jgmenu-interactive",  preferences-desktop-theme  

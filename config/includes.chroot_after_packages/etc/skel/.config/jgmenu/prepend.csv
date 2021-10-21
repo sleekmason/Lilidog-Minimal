@@ -1,2 +1,2 @@
-Terminal,           lxterminal,       utilities-terminal
+Terminal,           x-terminal-emulator,       utilities-terminal
 ^sep()
