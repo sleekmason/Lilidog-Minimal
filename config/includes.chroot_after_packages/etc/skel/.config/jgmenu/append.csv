@@ -25,7 +25,7 @@ Extras,             ^checkout(extras),   applications-system
 /usr/local/bin,           gksudo thunar /usr/local/bin,        folder-documents
 
 ^tag(toggles)
-Conky,               toggle.conky,              object-flip-horizontal
+Conky,               $HOME/.config/conky/scripts/conky-chooser,     object-flip-horizontal
 Picom,               toggle.picom,              object-flip-horizontal
 Hotcorners,          toggle.ld,                 object-flip-horizontal
 Tint2 Panel,         toggle.tint2,              object-flip-horizontal
