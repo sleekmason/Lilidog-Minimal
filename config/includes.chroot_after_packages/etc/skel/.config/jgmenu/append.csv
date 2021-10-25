@@ -56,7 +56,7 @@ Settings-Manager,         xfce4-settings-manager,                            sys
 Power Manager,            xfce4-power-manager-settings,                      applications-system     
 Openbox Conf,             obconf,                                            obconf
 Jgmenu Conf,              mousepad ~/.config/jgmenu/README & pcmanfm ~/.config/jgmenu,  document-properties
-Conky Conf,               mousepad ~/.config/conky/conky.conf,               document-properties
+Conky Conf,               pcmanfm ~/.config/conky,                           document-properties
 Urxvt Conf,               mousepad ~/.Xresources,                            utilities-terminal
 Tint2 Conf,               tint2conf,                                         tint2
 Picom Conf,               mousepad ~/.config/picom.conf,                     document-properties
