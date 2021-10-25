@@ -16,13 +16,13 @@ Mousepad,           mousepad,            accessories-text-editor
 Extras,             ^checkout(extras),   applications-system
 
 ^tag(rootfiles)
-/etc/apt/sources.list,    gksudo geany /etc/apt/sources.list,  folder-documents 
-/usr/share,               gksudo thunar /usr/share,            folder-documents
-/usr/share/fonts,         gksudo thunar /usr/share/fonts,      folder-documents
-/usr/share/icons,         gksudo thunar /usr/share/icons,      folder-documents    
-/usr/share/themes,        gksudo thunar /usr/share/themes,     folder-documents
-/usr/bin,                 gksudo thunar /usr/bin,              folder-documents
-/usr/local/bin,           gksudo thunar /usr/local/bin,        folder-documents
+/etc/apt/sources.list,    gksudo mousepad /etc/apt/sources.list,  folder-documents 
+/usr/share,               gksudo thunar /usr/share,               folder-documents
+/usr/share/fonts,         gksudo thunar /usr/share/fonts,         folder-documents
+/usr/share/icons,         gksudo thunar /usr/share/icons,         folder-documents    
+/usr/share/themes,        gksudo thunar /usr/share/themes,        folder-documents
+/usr/bin,                 gksudo thunar /usr/bin,                 folder-documents
+/usr/local/bin,           gksudo thunar /usr/local/bin,           folder-documents
 
 ^tag(toggles)
 Conky,               $HOME/.config/conky/scripts/conky-chooser,     object-flip-horizontal
