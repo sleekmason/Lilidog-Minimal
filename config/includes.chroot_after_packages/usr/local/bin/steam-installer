@@ -25,12 +25,11 @@ read -p "   Steam Installer
    Or close this terminal window to quit the install." ;
 echo ""
 sudo dpkg --add-architecture i386 && sudo apt update && sudo apt install --install-recommends steam
-grep -qF "Steam,         steam,       steam" ~/.config/jgmenu/mymenu.csv  || sed -i '14 a Steam,         steam,       steam' ~/.config/jgmenu/append.csv
 echo ""
 echo "------------------------------------------------------------------"
 echo ""
 echo "All Finished!"
 echo ""
-echo "If installed, You should find a new menu entry under 'Quick Grab'"
+echo "If installed, You should find a new menu entry under 'Games'"
 echo ""
 echo "------------------------------------------------------------------"
