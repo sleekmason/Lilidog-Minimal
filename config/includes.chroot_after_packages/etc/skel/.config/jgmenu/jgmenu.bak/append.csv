@@ -33,7 +33,7 @@ Xkill,               xkill,                     edit-delete
 
 ^tag(utilities)
 Screenshot,          gnome-screenshot -i,       applications-accessories
-Htop,               urxvt -e htop,                    htop
+Htop,               x-terminal-emulator -e htop,                    htop
 Gparted,            gksudo gparted,                   gparted
 Quick Info,         x-terminal-emulator -t 'Inxi Info' -e bash -c "inxi -Fxrzm; echo $'\n\nPress any key to close'; read -srn1",   document-properties
 Color Chooser,      yad --color,                      yad
