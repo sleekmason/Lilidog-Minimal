@@ -63,12 +63,12 @@ Xkill,               xkill,                                         edit-delete
 
 ^tag(rootfiles)
 /etc/apt/sources.list,    gksudo mousepad /etc/apt/sources.list,  folder-documents 
-/usr/share,               gksudo thunar /usr/share,               folder-documents
-/usr/share/fonts,         gksudo thunar /usr/share/fonts,         folder-documents
-/usr/share/icons,         gksudo thunar /usr/share/icons,         folder-documents    
-/usr/share/themes,        gksudo thunar /usr/share/themes,        folder-documents
-/usr/bin,                 gksudo thunar /usr/bin,                 folder-documents
-/usr/local/bin,           gksudo thunar /usr/local/bin,           folder-documents
+/usr/share,               gksudo pcmanfm /usr/share,               folder-documents
+/usr/share/fonts,         gksudo pcmanfm /usr/share/fonts,         folder-documents
+/usr/share/icons,         gksudo pcmanfm /usr/share/icons,         folder-documents    
+/usr/share/themes,        gksudo pcmanfm /usr/share/themes,        folder-documents
+/usr/bin,                 gksudo pcmanfm /usr/bin,                 folder-documents
+/usr/local/bin,           gksudo pcmanfm /usr/local/bin,           folder-documents
 
 ^tag(configuration)
 Wallpaper Chooser,        feh-set-wallpaper,                                                    feh
