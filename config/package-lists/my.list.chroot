@@ -23,7 +23,7 @@ e2fsprogs
 efibootmgr
 eject
 exfat-fuse
-exfat-utils
+exfatprogs
 extlinux
 f2fs-tools
 feh
@@ -155,6 +155,7 @@ xdg-utils
 xdotool
 xfce4-power-manager
 xfce4-settings
+xfce4-terminal
 xinput
 xorg
 xserver-common
