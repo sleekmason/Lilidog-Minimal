@@ -2,7 +2,7 @@
 # stay_alive = 1
 # persistent = 0
 # hide_on_startup = 0
-# csv_cmd = cat ~/.config/jgmenu/mymenu.csv
+csv_cmd = cat ~/.config/jgmenu/mymenu.csv
 # csv_cmd = ob
 # tint2_look = 0
 position_mode = pointer
