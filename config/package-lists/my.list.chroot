@@ -110,10 +110,12 @@ obconf
 openbox
 os-prober
 oss-compat
+pavucontrol
 pciutils
 pcmciautils
 pcmanfm
 picom
+pnmixer
 publicsuffix
 pulseaudio
 pulseaudio-utils
