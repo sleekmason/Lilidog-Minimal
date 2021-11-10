@@ -1,5 +1,5 @@
 Terminal,           x-terminal-emulator,       utilities-terminal
-Pcmanfm,            pcmanfm,                           system-file-manager
+Thunar ,            thunar,                    system-file-manager
 ^sep()
 Quick Grab,^checkout(quickgrab),applications-other
 ^sep()
@@ -54,19 +54,20 @@ Xkill,               xkill,                                         edit-delete
 
 ^tag(rootfiles)
 /etc/apt/sources.list,    gksudo mousepad /etc/apt/sources.list,  folder-documents 
-/usr/share,               gksudo pcmanfm /usr/share,               folder-documents
-/usr/share/fonts,         gksudo pcmanfm /usr/share/fonts,         folder-documents
-/usr/share/icons,         gksudo pcmanfm /usr/share/icons,         folder-documents    
-/usr/share/themes,        gksudo pcmanfm /usr/share/themes,        folder-documents
-/usr/bin,                 gksudo pcmanfm /usr/bin,                 folder-documents
-/usr/local/bin,           gksudo pcmanfm /usr/local/bin,           folder-documents
+/usr/share,               gksudo thunar /usr/share,               folder-documents
+/usr/share/fonts,         gksudo thunar /usr/share/fonts,         folder-documents
+/usr/share/icons,         gksudo thunar /usr/share/icons,         folder-documents    
+/usr/share/themes,        gksudo thunar /usr/share/themes,        folder-documents
+/usr/bin,                 gksudo thunar /usr/bin,                 folder-documents
+/usr/local/bin,           gksudo thunar /usr/local/bin,           folder-documents
 
 ^tag(configuration)
-Wallpaper Chooser,        feh-set-wallpaper,                                                    feh
+Lilidog Theme Changer,    ld-theme-changer,                                                     object-flip-horizontal
+Wallpaper Changer,        feh-set-wallpaper,                                                    feh
 Settings-Manager,         xfce4-settings-manager,                                               preferences-desktop-theme
 Power Manager,            xfce4-power-manager-settings,                                         applications-system  
 Openbox Conf,             obconf,                                                               obconf
-Jgmenu Conf,              mousepad ~/.config/jgmenu/README & pcmanfm ~/.config/jgmenu,          document-properties
+Jgmenu Conf,              mousepad ~/.config/jgmenu/README & thunar ~/.config/jgmenu,          document-properties
 Conky Conf,               thunar ~/.config/conky,                                               document-properties
 Urxvt Conf,               mousepad ~/.Xresources,                                               utilities-terminal
 Tint2 Conf,               tint2conf,                                                            tint2

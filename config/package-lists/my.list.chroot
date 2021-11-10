@@ -113,7 +113,6 @@ oss-compat
 pavucontrol
 pciutils
 pcmciautils
-pcmanfm
 picom
 pnmixer
 publicsuffix
@@ -134,6 +133,11 @@ suckless-tools
 sudo
 syslinux-common
 tasksel
+thunar
+thunar-archive-plugin
+thunar-media-tags-plugin
+thunar-volman
+tumbler
 tint2
 unzip
 usbutils
@@ -159,6 +163,7 @@ xfce4-power-manager
 xfce4-settings
 xfce4-terminal
 xinput
+xmlstarlet
 xorg
 xserver-common
 xserver-xorg

@@ -11,17 +11,17 @@ Configuration,^checkout(configuration),preferences-system
 Recent Files,^pipe(jgmenu_run ob --cmd="pipe-recent-files",folder
 Root Files,^checkout(rootfiles),folder-documents
 Urxvt,              urxvt,               utilities-terminal
-Pcmanfm,            pcmanfm,             system-file-manager
+Thunar,             thunar,              system-file-manager
 Mousepad,           mousepad,            accessories-text-editor
 
 ^tag(rootfiles)
 /etc/apt/sources.list,    gksudo mousepad /etc/apt/sources.list,  folder-documents 
-/usr/share,               gksudo pcmanfm /usr/share,               folder-documents
-/usr/share/fonts,         gksudo pcmanfm /usr/share/fonts,         folder-documents
-/usr/share/icons,         gksudo pcmanfm /usr/share/icons,         folder-documents    
-/usr/share/themes,        gksudo pcmanfm /usr/share/themes,        folder-documents
-/usr/bin,                 gksudo pcmanfm /usr/bin,                 folder-documents
-/usr/local/bin,           gksudo pcmanfm /usr/local/bin,           folder-documents
+/usr/share,               gksudo thunar /usr/share,               folder-documents
+/usr/share/fonts,         gksudo thunar /usr/share/fonts,         folder-documents
+/usr/share/icons,         gksudo thunar /usr/share/icons,         folder-documents    
+/usr/share/themes,        gksudo thunar /usr/share/themes,        folder-documents
+/usr/bin,                 gksudo thunar /usr/bin,                 folder-documents
+/usr/local/bin,           gksudo thunar /usr/local/bin,           folder-documents
 
 ^tag(toggles)
 Conky,               $HOME/.config/conky/scripts/conky-chooser,     object-flip-horizontal
@@ -56,12 +56,13 @@ Install Pipewire,         x-terminal-emulator -T 'Pipewire Installer' -e bash -c
 Remove Pipewire,          x-terminal-emulator -T 'Pipewire Remover' -e bash -c "pipewire-remover; echo $'\n\nPress any key to close.'; read -srn1",                   applications-utilities
 
 ^tag(configuration)
-Wallpaper Chooser,        feh-set-wallpaper,                                                    feh
+Lilidog Theme Changer,    ld-theme-changer,                                                     object-flip-horizontal
+Wallpaper Changer,        feh-set-wallpaper,                                                    feh
 Settings-Manager,         xfce4-settings-manager,                                               system-run
 Power Manager,            xfce4-power-manager-settings,                                         applications-system     
 Openbox Conf,             obconf,                                                               obconf
-Jgmenu Conf,              mousepad ~/.config/jgmenu/README & pcmanfm ~/.config/jgmenu,          document-properties
-Conky Conf,               pcmanfm ~/.config/conky,                                              document-properties
+Jgmenu Conf,              mousepad ~/.config/jgmenu/README & thunar ~/.config/jgmenu,          document-properties
+Conky Conf,               thunar ~/.config/conky,                                              document-properties
 Urxvt Conf,               mousepad ~/.Xresources,                                               utilities-terminal
 Tint2 Conf,               tint2conf,                                                            tint2
 Picom Conf,               mousepad ~/.config/picom.conf,                                        document-properties
