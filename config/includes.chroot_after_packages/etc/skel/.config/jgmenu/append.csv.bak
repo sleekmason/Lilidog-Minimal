@@ -55,7 +55,7 @@ Install Pipewire,         x-terminal-emulator -T 'Pipewire Installer' -e bash -c
 Remove Pipewire,          x-terminal-emulator -T 'Pipewire Remover' -e bash -c "pipewire-remover; echo $'\n\nPress any key to close.'; read -srn1",                   applications-utilities
 
 ^tag(configuration)
-Lilidog Theme Changer,    ld-theme-changer,                                                     object-flip-horizontal
+Quick Theme Changer,      ld-theme-changer,                                                     object-flip-horizontal
 Wallpaper Changer,        feh-set-wallpaper,                                                    feh
 Settings-Manager,         xfce4-settings-manager,                                               system-run
 Power Manager,            xfce4-power-manager-settings,                                         applications-system     
