@@ -54,19 +54,21 @@ Install Pipewire,         x-terminal-emulator -T 'Pipewire Installer' -e bash -c
 ^sep()
 Remove Pipewire,          x-terminal-emulator -T 'Pipewire Remover' -e bash -c "pipewire-remover; echo $'\n\nPress any key to close.'; read -srn1",                   applications-utilities
 
+
 ^tag(configuration)
-Quick Theme Changer,      ld-theme-changer,                                                     object-flip-horizontal
+Quick Theme Changer,      ld-theme-changer,                                                     applications-utilities
 Wallpaper Changer,        feh-set-wallpaper,                                                    feh
-Settings-Manager,         xfce4-settings-manager,                                               system-run
-Power Manager,            xfce4-power-manager-settings,                                         applications-system     
+Settings-Manager,         xfce4-settings-manager,                                               preferences-desktop-theme
+Power Manager,            xfce4-power-manager-settings,                                         applications-system  
 Openbox Conf,             obconf,                                                               obconf
 Jgmenu Conf,              mousepad ~/.config/jgmenu/README & thunar ~/.config/jgmenu,          document-properties
-Conky Conf,               thunar ~/.config/conky,                                              document-properties
+Conky Conf,               thunar ~/.config/conky,                                               document-properties
 Urxvt Conf,               mousepad ~/.Xresources,                                               utilities-terminal
 Tint2 Conf,               tint2conf,                                                            tint2
 Picom Conf,               mousepad ~/.config/picom.conf,                                        document-properties
-Lightdm Conf,             gksudo lightdm-gtk-greeter-settings,                                  document-properties
-Xbindkeys Conf,           xbindkeys-config,                                                     applications-utilities
+Lightdm Conf,             gksudo lightdm-gtk-greeter-settings,                                  preferences-system
+Xbindkeys Conf,           xbindkeys-config,                                                     document-properties
 Dmenu Apps Conf,          mousepad ~/.config/dmenu/apps,                                        document-properties
-Ld-Hotcorners Conf,       mousepad ~/.config/ld-hotcorners/ld-hotcornersrc,                     applications-games
+Ld-Hotcorners Conf,       mousepad ~/.config/ld-hotcorners/ld-hotcornersrc,                     applications-games 
+Xfce4-terminal Themes,    ld-term-changer,                                                      utilities-terminal     
 Jgmenu Theme Changer,     x-terminal-emulator -T 'Jgmenu Interactive' -e "jgmenu-interactive",  preferences-desktop-theme  
