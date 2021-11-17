@@ -24,10 +24,12 @@ Screenshot,         gnome-screenshot -i,              preferences-desktop-theme
 Htop,               x-terminal-emulator -T 'Htop' -e htop,                    htop
 Gparted,            gksudo gparted,                   gparted
 Quick Info,         x-terminal-emulator -T 'Inxi Info' -e bash -c "inxi -Fxrzm; echo $'\n\nPress any key to close'; read -srn1",   document-properties
+Printer Setup,      x-terminal-emulator -T "Printer Setup" -e bash -c "printer-installer; read -srn1", printer
 Kernel Remover,     x-terminal-emulator -T 'Kernel Remover' -e 'sudo kernel-remover -G dialog',     edit-cut
+Check Firmware,     x-terminal-emulator -T 'Firmware Checker' -e bash -c "firmware-checker; echo $'\n\nPress any key to close.'; read -srn1",  applications-system
 App Alternatives,   galternatives,                    preferences-system
 Color Chooser,      yad --color,                      yad
-Printer Setup,      x-terminal-emulator -T "Printer Setup" -e bash -c "printer-installer; read -srn1", printer
+Hw-Probe,           x-terminal-emulator -T 'Hw-Probe' -e bash -c "hw-probe-installer; echo $'\n\nPress any key to close.'; read -srn1",  applications-system
 Extras,             ^checkout(extras),                applications-system
 
 ^tag(extras)
