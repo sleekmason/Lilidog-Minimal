@@ -17,7 +17,6 @@ Recent Files,^pipe(jgmenu_run ob --cmd="pipe-recent-files",folder
 Root Files,^checkout(rootfiles),folder-documents
 Urxvt,              urxvt,                             utilities-terminal
 Mousepad,           mousepad,                          accessories-text-editor
-Newsboat,           x-terminal-emulator -e newsboat,   accessories-text-editor
 
 ^tag(utilities)
 Screenshot,         gnome-screenshot -i,              preferences-desktop-theme
