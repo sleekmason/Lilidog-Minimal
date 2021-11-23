@@ -122,11 +122,17 @@ Currently clockwise from top left: __file manager, toggle Picom, exit menu, and 
 __Theme changes:__  
 The easiest way to change themes is with the 'Quick Theme Changer' located in the menu under Configuration. <br/>
 This changes The GTK theme, Openbox theme, Geany theme, Lightdm, wallpaper, menu, and terminal theme all on the fly. 
-Lilidog comes with six full themes installed. <br/> 
-Lilidog-Bright Lilidog-Light, Lilidog-Grey, Lilidog-Clay, Lilidog-Slate, and Lilidog-Dark. <br/>
+Lilidog comes with eight full themes installed. <br/> 
+Lilidog-Bright Lilidog-Light, Lilidog-Grey, Lilidog-Clay, Lilidog-Slate, Lilidog-Dark. Lilidog-Cobalt, and Lilidog-Neon. <br/>
 
-__Other Settings:__ <br/>
-- Most common items to change will have an entry under 'Configuration' in the menu.
+__Make your own themes:__ <br/>
+All of the theme files are located in ~/.config/lilidog-themes. This will allow you to change the settings on the existing themes,
+to making your own and adding a button to the theme changer. For a quick overview see the discussion: https://sourceforge.net/p/lilidog/discussion/setup/thread/b3fec6a23b/ <br/>
+or the README located in ~/.config/lilidog-themes. <br/>
+
+__Other Settings:__
+- For keyboard language layout see: https://sourceforge.net/p/lilidog/discussion/setup/thread/e9e88533c0/<br/>
+- Most common items to change will have an entry under 'Configuration' in the menu.<br/>
 - Settings Manager - Change your gtk theme, fonts, and icons on an individual basis.  Other important settings are here as well. <br/>
 - Openbox Conf - The settings here control the window borders and other settings specific to Openbox. <br/>
 - Jgmenu - Go to menu -> configuration -> jgmenu.conf for menu items. For theme changes, got to Jgmenu Theme Changer in the menu. ("o" or "g") <br/>
