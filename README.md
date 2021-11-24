@@ -12,7 +12,7 @@ This includes Firefox, Thunderbird, Thunar, Geany, Gpicview, Smplayer, Gparted, 
 
 - Lilidog-Minimal-amd64 - This version contains all of the goodness of Lilidog <br/>
 while allowing you to choose most all of your OWN packages. <br/> 
-Currently contains Lxterminal, Thunar, and Mousepad to get you started. <br/>
+Currently contains xfce4-terminal, Thunar, and Mousepad to get you started. <br/>
 Design your system with any other programs you might like. <br/>
 __sudo apt update && sudo apt install synaptic__ for a graphical interface to make installing your programs easier. <br/>
 
@@ -82,13 +82,12 @@ or can be activated on login by adding to the autostart cconfiguration file.
 - Dmenu for an alternate menu source. - ALT + F2 pulls the full Dmenu up, while ALT + F3 pulls up a <br/>
 customized Dmenu with only the most commonly used apps.
 
-- Thunar is the default file manager.  Pcmanfm is also available in the full build. Custom right-click <br/> 
-options for each are already added.
+- Thunar is the default file manager.  Custom right-click options are already added as well.
 
 - Custom Lilidog Openbox and GTK themes, and matching themes for Geany and Mousepad. <br/> 
 The fonts are Liberation Sans, except for urxvt and Conky, where Dejavu is used. (see "instructions" below.)
 
-- Xfce4-terminal is default, with URXVT and lxterminal also installed. Use "App Alternatives in the menu <br/>
+- Xfce4-terminal is default, with URXVT also installed. Use "App Alternatives in the menu <br/>
  or __sudo update-alternatives --config x-terminal-emulator__ in a terminal to switch default terminals.  
 
 - URXVT terminal has font size control (ctl+up/down), transparency, and opens urls in Firefox. <br/>
