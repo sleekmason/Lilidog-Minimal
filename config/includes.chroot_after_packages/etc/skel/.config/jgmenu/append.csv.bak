@@ -25,9 +25,10 @@ Mousepad,           mousepad,            accessories-text-editor
 
 ^tag(toggles)
 Conky,               $HOME/.config/conky/scripts/conky-chooser,     object-flip-horizontal
-Picom,               toggle.picom,                                  object-flip-horizontal
+Gammy,               toggle.gammy,                                  object-flip-horizontal
 Hotcorners,          toggle.ld,                                     object-flip-horizontal
 Tint2 Panel,         toggle.tint2,                                  object-flip-horizontal
+Picom,               toggle.picom,                                  object-flip-horizontal
 Xkill,               xkill,                                         edit-delete
 
 ^tag(utilities)

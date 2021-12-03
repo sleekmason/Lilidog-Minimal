@@ -86,6 +86,7 @@ libfile-mimeinfo-perl
 libfm-modules
 libinput-tools
 libnotify-bin
+libqt5svg5
 lightdm
 lightdm-gtk-greeter-settings
 lm-sensors
