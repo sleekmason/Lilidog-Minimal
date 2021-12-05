@@ -100,6 +100,7 @@ menu-xdg
 mesa-utils
 mesa-va-drivers
 mesa-vdpau-drivers
+mlocate
 mousepad
 nano
 ncdu
