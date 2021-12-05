@@ -13,6 +13,10 @@ Root Files,^checkout(rootfiles),folder-documents
 Urxvt,              urxvt,               utilities-terminal
 Thunar,             thunar,              system-file-manager
 Mousepad,           mousepad,            accessories-text-editor
+Development,^checkout(development),applications-development
+
+^tag(development)
+Icon Browser,       yad-icon-browser,                  galternatives
 
 ^tag(rootfiles)
 /etc/apt/sources.list,    gksudo mousepad /etc/apt/sources.list,  folder-documents 

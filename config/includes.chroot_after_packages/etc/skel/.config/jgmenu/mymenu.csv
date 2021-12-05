@@ -17,6 +17,10 @@ Recent Files,^pipe(jgmenu_run ob --cmd="pipe-recent-files",folder
 Root Files,^checkout(rootfiles),folder-documents
 Urxvt,              urxvt,                             utilities-terminal
 Mousepad,           mousepad,                          accessories-text-editor
+Development,^checkout(development),applications-development
+
+^tag(development)
+Icon Browser,       yad-icon-browser,                  galternatives
 
 ^tag(utilities)
 Screenshot,         gnome-screenshot -i,              preferences-desktop-theme
