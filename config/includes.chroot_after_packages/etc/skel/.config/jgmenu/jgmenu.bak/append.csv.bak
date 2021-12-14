@@ -16,6 +16,7 @@ Mousepad,           mousepad,            accessories-text-editor
 Development,^checkout(development),applications-development
 
 ^tag(development)
+Meld,               meld,                              document-properties
 Icon Browser,       yad-icon-browser,                  galternatives
 
 ^tag(rootfiles)
@@ -28,6 +29,7 @@ Icon Browser,       yad-icon-browser,                  galternatives
 /usr/local/bin,           gksudo thunar /usr/local/bin,           folder-documents
 
 ^tag(toggles)
+Random Wall On/Off,  toggle.wallpaper-random,                       object-flip-horizontal
 Conky,               $HOME/.config/conky/scripts/conky-chooser,     object-flip-horizontal
 Gammy,               toggle.gammy,                                  object-flip-horizontal
 Hotcorners,          toggle.ld,                                     object-flip-horizontal

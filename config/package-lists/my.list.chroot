@@ -10,6 +10,7 @@ at-spi2-core
 b43-fwcutter
 bash-completion
 btrfs-progs
+catfish
 conky
 console-data
 crda
@@ -79,6 +80,7 @@ gvfs-fuse
 hddtemp
 hdparm
 htop
+imagemagick
 intel-microcode
 inxi
 isc-dhcp-client
@@ -97,6 +99,7 @@ lsb-release
 lxpolkit
 manpages
 manpages-dev
+meld
 menu
 menu-xdg
 mesa-utils
