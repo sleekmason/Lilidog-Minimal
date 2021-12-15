@@ -30,6 +30,7 @@ Icon Browser,       yad-icon-browser,                  galternatives
 
 ^tag(toggles)
 Random Wall On/Off,  toggle.wallpaper-random,                       object-flip-horizontal
+Wbar,                toggle.wbar,                                   object-flip-horizontal
 Conky,               $HOME/.config/conky/scripts/conky-chooser,     object-flip-horizontal
 Gammy,               toggle.gammy,                                  object-flip-horizontal
 Hotcorners,          toggle.ld,                                     object-flip-horizontal

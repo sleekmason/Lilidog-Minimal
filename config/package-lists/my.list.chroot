@@ -153,6 +153,8 @@ user-setup
 uuid-runtime
 va-driver-all
 vdpau-driver-all
+wbar
+wbar-config
 wmctrl
 x11-apps
 x11-common
