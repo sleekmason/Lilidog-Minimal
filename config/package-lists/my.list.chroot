@@ -9,6 +9,7 @@ apt-utils
 at-spi2-core
 b43-fwcutter
 bash-completion
+bind9-dnsutils
 btrfs-progs
 catfish
 conky
@@ -146,6 +147,7 @@ thunar-media-tags-plugin
 thunar-volman
 tumbler
 tint2
+tree
 unzip
 usbutils
 usermode
