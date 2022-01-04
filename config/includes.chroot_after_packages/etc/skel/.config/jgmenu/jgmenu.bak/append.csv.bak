@@ -34,7 +34,7 @@ Icons,                    thunar /usr/share/icons,                       folder-
 Fonts,                    thunar /usr/share/fonts,                       folder-documents 
 GTK Themes,               thunar /usr/share/themes,                      folder-documents  
 Openbox Themes,           thunar /usr/share/themes,                      folder-documents
-Grub Backgrounds,         thunar /home/wallpaper,                        folder-documents
+Grub Backgrounds,         thunar ~/Pictures/grub-bg,                     folder-documents
 
 ^tag(toggles)
 Wbar,                toggle.wbar,                                   object-flip-horizontal
