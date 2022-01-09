@@ -18,11 +18,6 @@
 				<execute>x-www-browser</execute>
 			</action>
 		</item>
-		<item icon="/usr/share/thunderbird/chrome/icons/default/default48.png" label="Thunderbird">
-			<action name="Execute">
-				<execute>thunderbird</execute>
-			</action>
-		</item>
 		<separator/>
 		<menu icon="/usr/share/icons/gnome/48x48/categories/applications-other.png" id="root-menu-594711" label="Quick Grab">
 			<menu execute="pipe-recent-files" icon="/usr/share/icons/gnome/32x32/places/folder.png" id="ID41" label="Recent Files"/>
@@ -78,11 +73,6 @@
 					<execute>libreoffice</execute>
 				</action>
 			</item>
-			<item icon="/usr/share/pixmaps/geany.xpm" label="Geany">
-				<action name="Execute">
-					<execute>geany</execute>
-				</action>
-			</item>
 			<item icon="/usr/share/icons/ld-icons/spacefm-48-pyramid-green.png" label="Spacefm">
 				<action name="Execute">
 					<execute>spacefm</execute>
@@ -101,11 +91,6 @@
 			<item icon="/usr/share/icons/gnome/48x48/apps/accessories-dictionary.png" label="Newsboat">
 				<action name="Execute">
 					<execute>urxvt -g 120x40+120+100 -e newsboat</execute>
-				</action>
-			</item>
-			<item icon="/usr/share/pixmaps/smplayer.xpm" label="SmPlayer">
-				<action name="Execute">
-					<execute>smplayer</execute>
 				</action>
 			</item>
 			<item icon="/usr/share/icons/ld-icons/gpicview.png" label="Gpicview">
@@ -218,12 +203,6 @@
 					<execute>x-terminal-emulator -T 'inxi -Fxrz' -e bash -c "inxi -Fxrz; echo $'\n\nPress any key to close'; read -srn1"</execute>
 				</action>
 			</item>
-			<item icon="/usr/share/pixmaps/transmission.xpm" label="Transmission">
-				&gt;
-				<action name="Execute">
-					<execute>transmission-gtk</execute>
-				</action>
-			</item>
 			<item icon="/usr/share/icons/ld-icons/galternatives.png" label="G-Alternatives">
 				<action name="Execute">
 					<execute>galternatives</execute>
@@ -242,11 +221,6 @@
 			<item icon="/usr/share/icons/gnome/48x48/apps/accessories-calculator.png" label="Galculator">
 				<action name="Execute">
 					<execute>galculator</execute>
-				</action>
-			</item>
-			<item icon="/usr/share/pixmaps/synaptic.png" label="Synaptic">
-				<action name="Execute">
-					<execute>gksudo synaptic</execute>
 				</action>
 			</item>
 		</menu>
