@@ -8,8 +8,8 @@ read -p "   Libreoffice Installer
    and other sensible extras. Hunspell will default to US EN. 
    Other languages available.
    
-   Please note that Abiword is already installed in the full 
-   versions if all you need is a writer.
+   Please note that libreoffice-writer is already installed in the
+   full versions if all you need is a writer.
    
    --------------------------------------------------------------
    
