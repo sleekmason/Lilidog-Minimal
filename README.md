@@ -10,16 +10,15 @@ Everything is easily accessible, with numerous options to customize further.
 - Lilidog-amd64 (Bullseye amd64 full version) -  Has most programs already installed for everyday use. <br/>
 This includes Firefox, Thunderbird, Thunar, Geany, Gpicview, Smplayer, Gparted, Synaptic, and Gimp to name a few.
 
-- Lilidog-Minimal-amd64 - This version contains all of the goodness of Lilidog <br/>
-while allowing you to choose most all of your OWN packages. <br/> 
-Currently contains xfce4-terminal, Thunar, and Mousepad to get you started. <br/>
-Design your system with any other programs you might like. <br/>
-__sudo apt update && sudo apt install synaptic__ for a graphical interface to make installing your programs easier. <br/>
+- Lilidog-Minimal-amd64 - This version contains all of the goodness of Lilidog while allowing you to choose most all of
+your OWN packages. Currently contains xfce4-terminal, Thunar, and Mousepad to get you started.
+Design your system with any other programs you might like.
+__sudo apt update && sudo apt install synaptic__ for a graphical interface to make installing your programs easier.
 
-- Lilidog-Sid-amd64 This version uses the repositories from the unstable branch (sid).  If you want a rolling release, <br/>
+- Lilidog-Sid-amd64 This version uses the repositories from the unstable branch (sid).  If you want a rolling release,
 this is the one for you. You will want to __sudo apt update && sudo apt upgrade__ frequently to not fall too far behind.
 
-- Lilidog-i386 (Bullseye i386 full version) Uses the same base packages as the amd64 version, but for older hardware. <br/>
+- Lilidog-i386 (Bullseye i386 full version) Uses the same base packages as the amd64 version, but for older hardware.
 You may need to boot with the kernel parameter 'forcepae' if you have difficulties.
 
 See further below for features.
@@ -59,53 +58,61 @@ Lilidog: <br/>
 
 ### Features:
 
-- Based on Debian with contrib and non-free sources enabled by default. <br/>
+- Based on Debian with contrib and non-free sources enabled by default.
 Debian backport sources can be added during installation in the stable build when using the 'expert' installer. 
 
-- These are 'no --recommends' builds. This means only the required dependancies are included during package install. <br/>
-This leaves out any recommended or suggested packages, allowing for complete control over package installation. <br/>
-No unwanted packages will be installed by default. This can be changed after install if desired. <br/>
+- These are 'no --recommends' builds. This means only the required dependencies are included during package install.
+This leaves out any recommended or suggested packages, allowing for complete control over package installation.
+No unwanted packages will be installed by default. This can be changed after install if desired.
 
-- Tint2 panel by default, with an options for FbPanel. Try them both under 'Toggles' in the menu.
+- Tint2 is the panel by default, with an options for FbPanel. Look under Toggles in the menu for some other nifty options,
+as well including toggles for the position (top or bottom), autohide, Tint2 time format (12/24H), and on/off. A separate
+keybind is included to toggle the panel on/off: "Super + p".
 
-- Jgmenu is the menu for all versions.  Huge amount of customization available. <br/>
-Go to menu -> configuration -> jgmenu.conf for how to change items. For themes, go to Jgmenu Theme Changer and use "o" or "g".
+- Jgmenu is the menu for all versions.  Huge amount of customization available.
+Go to menu -> configuration -> jgmenu.conf for how to change and add items. 
 
-- Wallpapers - Handled by Feh.  Place any image you would like to use as a wallpaper in ~/Pictures/wallpapers. <br/>
-Go to Menu -> Configuration -> Wallpaper Chooser to change wallpapers. <br/>
-You can also right-click on any image you choose from the file manager to set as background wallpaper. Other right-click <br/>
+- Wallpapers - Handled by Feh.  Place any image you would like to use as a wallpaper in ~/Pictures/wallpapers.
+Go to Menu -> Configuration -> Wallpaper Chooser to change wallpapers.
+You can also right-click on any image you choose from the file manager to set as background wallpaper. Other right-click
 options for images include rotation and copying to ~/Pictures.wallpapers. A random wallpaper toggle is included.
 
-- Grub background changer opens a window to choose your own images.
+- Grub background changer opens a window to choose your own images. Lilidog ships with six to give you an intitial
+choice before finding your own to add to the collection.
 
-- There are shortcuts for xfce4-power-manager in the battery icon. <br/>
-To see time format options for 24 hour vs. 12 hour, middleclick over the time for the man page. <br/>
+- There are shortcuts for xfce4-power-manager in the battery icon.
+To see time format options for 24 hour vs. 12 hour, middleclick over the time for the man page.
 Hover over the icons to see what they are.  The live password is "live" for the screenlock.
 
-- Xscreensaver and other handy startup apps readily available through the toggles in the menu, <br/>
-or can be activated on login by adding to the autostart cconfiguration file.
+- Xscreensaver and other handy startup apps readily available through the toggles in the menu,
+or can be activated on login by adding to the autostart configuration file.
 
-- Dmenu for an alternate menu source. - ALT + F2 pulls the full Dmenu up, while ALT + F3 pulls up a <br/>
-customized Dmenu with only the most commonly used apps.
+- Dmenu for an alternate menu source. - ALT + F2 pulls the full Dmenu up, while ALT + F3 pulls up a
+customized Dmenu with only the most commonly used apps. Look under Configuration in the menu to change items.
 
 - Wbar for icons on the desktop if desired. activate from Toggles in the menu. Fun to configure!
 
-- Thunar is the default file manager.  Custom right-click options are already added as well.
+- Thunar is the default file manager.  Custom right-click options are already added as well. These include everything from
+"Open as Root', to different rotations and sizing of pics, to comparisons of files using Meld. And more.
 
-- Custom Lilidog Openbox and GTK themes, and matching themes for Geany and Mousepad. <br/> 
+- Custom Lilidog Openbox and GTK themes, and matching themes for Geany and Xfce4-terminal.
 The fonts are Liberation Sans, except for urxvt and Conky, where Dejavu is used. (see "instructions" below.)
 
-- Xfce4-terminal is default, with URXVT also installed. Use "App Alternatives in the menu <br/>
+- Xfce4-terminal is default, with URXVT also installed. Use "App Alternatives in the menu
  or __sudo update-alternatives --config x-terminal-emulator__ in a terminal to switch default terminals.  
 
-- URXVT terminal has font size control (ctl+up/down), transparency, and opens urls in Firefox. <br/>
+- URXVT terminal has font size control (ctl+up/down), transparency, and opens urls in Firefox.
 
-- Conky Chooser in toggles allows for toggling different conky's, and has all sorts of relevant info, <br/>
-including connected drives, number of packages installed, and more. 
+- Conky Chooser in the toggles section of the menu contains toggles for six different Conkys and the time format shown. All of
+the Conkys contain relevant info. These include a Clock, Full Info, Fortunes, Shortcuts, Worldclock, and Current Conditions.
+Please note that "Current Conditions" takes a moment to initialize.  Mix, match, change, etc. Everything is located in the
+conky folder ~/.config/conky including the Conky Chooser script.
 
-- Picom Composite Manager with transparency enabled. Look in the configuration menu to access ~/.config/picom.conf.
+- Picom Composite Manager with transparency enabled. Look in the configuration menu to access ~/.config/picom.conf in order to
+change transparency, shadows, and more.
 
-- Gammy screen color and lightness control located in Toggles, and from the keyboard.
+- Gammy screen color and lightness control located in Toggles, and from the keybind "Super + g". This will allow you to change
+and set the gamma and brightness of your screen for different times of your choice, or simply as a toggle when desired.
 
 - Newsboat RSS reader with a custom configuration already in place and ready for new RSS feeds.
 
@@ -113,24 +120,19 @@ including connected drives, number of packages installed, and more.
 
 - Menu Extras - Install menu with options for Liquorix kernel, Qemu, Virtualbox (sid), Steam, Etcher, and more.
 
-- All custom scripts are in /usr/local/bin.  Some of the fun ones are: <br/>
-winfuncs tiler - For tiling and such. Set your own keybinds! <br/>
-Try: __winfuncs cascade__ or __winfuncs showdesktop__  in a terminal with a couple of windows open to get the idea. <br/>
-Look at the script in /usr/local/bin for the rest of the options.
-
-- Swapid script for the frequent dual installer. This grabs your swap uuid and opens the appropriate windows to edit. <br/>
+- Swapid script for the frequent dual installer. This grabs your swap uuid and opens the appropriate windows to edit.
 Run 'swapid' in a terminal after installing another distro to a different partition.
 
-- ld-hotcorners - Each corner of the screen responds to a command. <br/>
-Turn it on with the button in the lower left corner or under Toggles in the menu. <br/>
-Change the corners in ~/.config/ld-hotcorners. <br/>
-Currently clockwise from top left: __file manager, toggle Picom, exit menu, and terminal__. <br/>
+- ld-hotcorners - Each corner of the screen responds to a command.
+Turn it on with the button in the lower left corner or under Toggles in the menu.
+Change the corners in ~/.config/ld-hotcorners.
+Currently clockwise from top left: __file manager, toggle Picom, exit menu, and terminal.
 
 ### Instructions For Various Tasks:
 
 __Theme changes:__  
-The easiest way to change themes is with the 'Quick Theme Changer' located in the menu under Configuration. <br/>
-This changes The GTK theme, Openbox theme, Geany theme, Lightdm, wallpaper, menu, and terminal theme all on the fly. <br/>
+The easiest way to change themes is with the 'Quick Theme Changer' located in the menu under Configuration.
+This changes The GTK theme, Openbox theme, Geany theme, Lightdm, wallpaper, menu, and terminal theme all on the fly.
 
 __Make your own themes:__ <br/>
 All of the theme files are located in ~/.config/lilidog-themes. This will allow you to change the settings on the existing themes,
