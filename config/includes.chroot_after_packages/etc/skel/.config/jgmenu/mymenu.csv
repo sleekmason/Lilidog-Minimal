@@ -21,6 +21,7 @@ Development,^checkout(development),applications-development
 
 ^tag(development)
 Meld,               meld,                              document-properties
+Gpick,              gpick,                             gpick
 Icon Browser,       yad-icon-browser,                  galternatives
 
 ^tag(utilities)
