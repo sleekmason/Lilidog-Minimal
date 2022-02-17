@@ -21,7 +21,7 @@ Gpick,              gpick,                             gpick
 Icon Browser,       yad-icon-browser,                  galternatives
 
 ^tag(rootfiles)
-/etc,                     gksudo thunar /usr/share,               folder-documents
+/etc,                     gksudo thunar /etc,                     folder-documents
 /etc/apt/sources.list,    gksudo mousepad /etc/apt/sources.list,  folder-documents 
 /usr/share,               gksudo thunar /usr/share,               folder-documents
 /usr/bin,                 gksudo thunar /usr/bin,                 folder-documents
