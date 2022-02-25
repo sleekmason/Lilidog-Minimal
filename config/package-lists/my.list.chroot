@@ -4,6 +4,7 @@ alsa-oss
 alsa-utils
 amd64-microcode
 anacron
+apt-listchanges
 apt-transport-https
 apt-utils
 at-spi2-core
@@ -95,6 +96,7 @@ libfile-mimeinfo-perl
 libfm-modules
 libinput-tools
 libnotify-bin
+libnss-systemd
 libqt5svg5
 lightdm
 lightdm-gtk-greeter-settings
@@ -111,6 +113,8 @@ mesa-utils
 mesa-va-drivers
 mesa-vdpau-drivers
 mesa-vulkan-drivers
+mailcap
+mime-support
 mlocate
 mobile-broadband-provider-info
 modemmanager
@@ -120,6 +124,7 @@ nano
 ncdu
 neofetch
 net-tools
+netcat-openbsd
 network-manager-gnome
 ntfs-3g
 obconf
@@ -158,6 +163,7 @@ thunar-media-tags-plugin
 thunar-volman
 tumbler
 tint2
+traceroute
 tree
 unzip
 usb-modeswitch
