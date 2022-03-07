@@ -136,6 +136,7 @@ pciutils
 pcmciautils
 picom
 plymouth
+plymouth-themes
 pnmixer
 publicsuffix
 pulseaudio
@@ -177,6 +178,7 @@ va-driver-all
 vdpau-driver-all
 wbar
 wbar-config
+wget
 wmctrl
 wvdial
 x11-apps
