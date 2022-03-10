@@ -38,12 +38,12 @@ Openbox Themes,           thunar /usr/share/themes,                      folder-
 Grub Backgrounds,         thunar ~/Pictures/grub-bg,                     folder-documents
 
 ^tag(toggles)
+Tint2 Options,       ^checkout(tint2-options),                      object-flip-horizontal
 Wbar,                toggle.wbar,                                   object-flip-horizontal
 Conky,               $HOME/.config/conky/scripts/conky-chooser,     object-flip-horizontal
 Gammy,               toggle.gammy,                                  object-flip-horizontal
 Hotcorners,          toggle.ld,                                     object-flip-horizontal
 Random BG,           toggle-wallpaper-random,                       object-flip-horizontal
-Tint2 Options,       ^checkout(tint2-options),                      object-flip-horizontal
 Tint2 Toggle,        toggle.tint2,                                  object-flip-horizontal
 Picom,               toggle.picom,                                  object-flip-horizontal
 Xkill,               xkill,                                         edit-delete
@@ -57,6 +57,7 @@ Tint2 12H/24H,         tint2-12to24,                                  object-fli
 Tint2 Bright,          tint2-bright,                                  object-flip-horizontal
 
 ^tag(utilities)
+Wallpaper Maker,    ^checkout(clickpick),             applications-utilities
 Screenshot,         gnome-screenshot -i,              preferences-desktop-theme
 Htop,               x-terminal-emulator -T 'Htop' -e htop,                    htop
 Gparted,            gksudo gparted,                   gparted
@@ -64,7 +65,6 @@ Quick Info,         x-terminal-emulator -T 'Inxi Info' -e bash -c "inxi -Fxrzm; 
 Printer Setup,      x-terminal-emulator -T "Printer Setup" -e bash -c "printer-installer; read -srn1", printer
 Kernel Remover,     x-terminal-emulator -T 'Kernel Remover' -e 'sudo kernel-remover -G dialog',     edit-cut
 Check Firmware,     x-terminal-emulator -T 'Firmware Checker' -e bash -c "firmware-checker; echo $'\n\nPress any key to close.'; read -srn1",  applications-system
-Wallpaper Maker,    ^checkout(clickpick),             applications-utilities
 App Alternatives,   galternatives,                    preferences-system
 Color Chooser,      yad --color,                      yad
 Hw-Probe,           x-terminal-emulator -T 'Hw-Probe' -e bash -c "hw-probe-installer; echo $'\n\nPress any key to close.'; read -srn1",  applications-system
