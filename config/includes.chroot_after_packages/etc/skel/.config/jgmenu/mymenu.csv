@@ -76,6 +76,7 @@ Gammy,               toggle.gammy,                                  object-flip-
 Hotcorners,          toggle.ld,                                     object-flip-horizontal
 Random BG,           toggle-wallpaper-random,                       object-flip-horizontal
 Tint2 Toggle,        toggle.tint2,                                  object-flip-horizontal
+Touchpad,            toggle-touchpad,                               object-flip-horizontal
 Picom,               toggle.picom,                                  object-flip-horizontal
 Xkill,               xkill,                                         edit-delete
 
