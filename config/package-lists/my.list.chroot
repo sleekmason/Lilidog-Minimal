@@ -176,6 +176,7 @@ user-setup
 uuid-runtime
 va-driver-all
 vdpau-driver-all
+volumeicon-alsa
 wbar
 wbar-config
 wget
