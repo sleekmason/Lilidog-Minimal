@@ -8,6 +8,7 @@ apt-listchanges
 apt-transport-https
 apt-utils
 at-spi2-core
+apt-xapian-index
 b43-fwcutter
 bash-completion
 bind9-dnsutils
