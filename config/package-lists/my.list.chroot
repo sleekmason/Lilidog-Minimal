@@ -72,7 +72,6 @@ fuse3
 galternatives
 gettext-base
 gnome-icon-theme
-gnome-screenshot
 gnome-system-tools
 gnupg2
 gparted
@@ -153,7 +152,6 @@ rename
 rsync
 rtmpdump
 rxvt-unicode
-scrot
 ssft
 squashfs-tools
 suckless-tools
@@ -197,6 +195,7 @@ xdg-utils
 xdotool
 xfce4-power-manager
 xfce4-power-manager-plugins
+xfce4-screenshooter
 xfce4-settings
 xfce4-terminal
 xinput
