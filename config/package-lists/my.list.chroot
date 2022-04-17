@@ -74,6 +74,7 @@ galternatives
 gettext-base
 gnome-icon-theme
 gnome-system-tools
+gnome-themes-standard
 gnupg2
 gparted
 gpick
@@ -121,6 +122,7 @@ mobile-broadband-provider-info
 modemmanager
 mokutil
 mousepad
+mtools
 nano
 ncdu
 neofetch
