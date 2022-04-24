@@ -114,7 +114,7 @@ Install Lynx,              x-terminal-emulator -T 'Lynx Installer' -e bash -c "l
 
 ^tag(configuration)
 Quick Theme Changer,      ld-theme-changer,                                                     preferences-desktop-theme
-Wallpaper Changer,        feh-set-wallpaper,                                                    feh
+Wallpaper Changer,        feh-set-wallpaper,                                                    preferences-desktop-display
 Settings-Manager,         xfce4-settings-manager,                                               preferences-system
 Power Manager,            xfce4-power-manager-settings,                                         applications-system  
 Openbox Conf,             obconf,                                                               obconf
