@@ -42,6 +42,7 @@ Tint2 Options,       ^checkout(tint2-options),                      object-flip-
 Wbar,                toggle.wbar,                                   object-flip-horizontal
 Conky,               $HOME/.config/conky/scripts/conky-chooser,     object-flip-horizontal
 Gammy,               toggle.gammy,                                  object-flip-horizontal
+Jgmenu,              jg-icon-changer,                               object-flip-horizontal
 Hotcorners,          toggle.ld,                                     object-flip-horizontal
 Random BG,           toggle-wallpaper-random,                       object-flip-horizontal
 Tint2 Toggle,        toggle.tint2,                                  object-flip-horizontal
