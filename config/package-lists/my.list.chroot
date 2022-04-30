@@ -23,8 +23,10 @@ crda
 curl
 dbus-user-session
 dbus-x11
+debian-faq
 desktop-base
 dialog
+doc-debian
 dosfstools
 dunst
 e2fsprogs
@@ -94,10 +96,12 @@ isc-dhcp-client
 iw
 jp2a
 kbd
+krb5-locales
 libexo-2-0
 libfile-mimeinfo-perl
 libfm-modules
 libinput-tools
+liblockfile-bin
 libnotify-bin
 libnss-systemd
 libqt5svg5
@@ -126,7 +130,9 @@ mousepad
 mtools
 nano
 ncdu
+ncurses-term
 neofetch
+netcat-traditional
 netpbm
 net-tools
 netcat-openbsd
@@ -152,11 +158,15 @@ python3-pyxattr
 python3-xdg
 python3-notify2
 python3-six
+python3-httplib2 
+python3-pycurl 
+python3-reportbug
 python3-xlib
 qt5-gtk-platformtheme
 qt5-gtk2-platformtheme
 qt5-style-plugins
 rename
+reportbug
 rsync
 rtkit
 rtmpdump
@@ -166,7 +176,9 @@ ssft
 squashfs-tools
 suckless-tools
 sudo
+systemd-timesyncd
 tasksel
+telnet
 thunar
 thunar-archive-plugin
 thunar-gtkhash
@@ -188,6 +200,7 @@ uuid-runtime
 va-driver-all
 vdpau-driver-all
 volumeicon-alsa
+wamerican
 wbar
 wbar-config
 wget
