@@ -34,6 +34,7 @@ efibootmgr
 eject
 exfat-fuse
 exfatprogs
+extlinux
 f2fs-tools
 feh
 file
@@ -174,6 +175,7 @@ ssft
 squashfs-tools
 suckless-tools
 sudo
+syslinux-common
 systemd-timesyncd
 tasksel
 telnet
