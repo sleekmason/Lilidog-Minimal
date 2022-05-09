@@ -25,7 +25,7 @@ Gpick,              gpick,                             gpick
 Icon Browser,       yad-icon-browser,                  galternatives
 
 ^tag(utilities)
-Wallpaper Maker,    ^checkout(clickpick),             applications-utilities
+Wallpaper Maker,    ^checkout(clickpick),             applications-graphics
 Screenshot,         xfce4-screenshooter,              org.xfce.screenshooter
 Htop,               x-terminal-emulator -T 'Htop' -e htop,                    htop
 Gparted,            gksudo gparted,                   gparted
@@ -37,7 +37,7 @@ App Alternatives,   galternatives,                    preferences-system
 Live USB Maker,     x-terminal-emulator -T 'Live USB Maker' -e "sudo live-usb-maker-gui-antix",     gparted
 Color Chooser,      yad --color,                      org.xfce.settings.color
 Hw-Probe,           x-terminal-emulator -T 'Hw-Probe' -e bash -c "hw-probe-installer; echo $'\n\nPress any key to close.'; read -srn1",  applications-system
-Install Extras,             ^checkout(extras),                applications-system
+Install Extras,             ^checkout(extras),                applications-utilities
 
 ^tag(clickpick)
 Clickpick Single,   clickpick,                        gpick
