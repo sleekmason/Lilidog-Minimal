@@ -79,6 +79,7 @@ fortunes
 fortune-mod
 fuse3
 galternatives
+geany
 gettext-base
 gnome-icon-theme
 gnome-system-tools
@@ -131,7 +132,6 @@ mlocate
 mobile-broadband-provider-info
 modemmanager
 mokutil
-mousepad
 mtd-utils
 mtools
 nano
