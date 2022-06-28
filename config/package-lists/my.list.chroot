@@ -84,7 +84,7 @@ gettext-base
 gnome-icon-theme
 gnome-system-tools
 gnome-themes-extra
-gnupg2
+gnupg
 gparted
 gpick
 gtk2-engines-murrine
