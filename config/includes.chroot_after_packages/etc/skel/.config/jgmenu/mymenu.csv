@@ -54,21 +54,13 @@ Gammy,               toggle.gammy,                                  preferences-
 Jgmenu,              jg-icon-changer,                               preferences-system
 Hotcorners,          toggle.ld,                                     preferences-system
 Random BG,           toggle-wallpaper-random,                       preferences-system
+Tint2 Options,       tint2-options,                                 preferences-system
 Tint2 Toggle,        toggle.tint2,                                  preferences-system
 Auto Login,          lightdm-autologin,                             preferences-system
 Touchpad,            toggle-touchpad,                               preferences-system
 Sounds,              notification-sounds,                           preferences-system
 Picom,               toggle.picom,                                  preferences-system
 Xkill,               xkill,                                         edit-delete
-
-^tag(tint2-options)
-Tint2 Position,        tint2-position,                                preferences-system
-Tint2 Autohide,        tint2-autohide,                                preferences-system
-Tint2 Autoshrink,      tint2-shrink,                                  preferences-system
-Tint2 Battery Icon,    toggle-tint2-batteryicon,                      preferences-system
-Tint2 Transparency,    tint2-transparency,                            preferences-system
-Tint2 12H/24H,         tint2-12to24,                                  preferences-system
-Tint2 Bright,          tint2-bright,                                  preferences-system
 
 ^tag(rootfiles)
 /etc,                     gksudo thunar /etc,                     folder-documents
