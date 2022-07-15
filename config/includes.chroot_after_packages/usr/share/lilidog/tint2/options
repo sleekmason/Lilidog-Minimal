@@ -1,5 +1,4 @@
 Tint2 12H/24H,             tint2-12to24,            time-admin
-Tint2 10% Bat warning,     tint2-battery-notify,    battery
 Tint2 Autohide,            tint2-autohide,          preferences-desktop
 Tint2 Autoshrink,          tint2-shrink,            zoom-fit-best
 Tint2 Bright,              tint2-bright,            dialog-information
