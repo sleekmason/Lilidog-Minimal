@@ -15,7 +15,7 @@ lb config noauto \
      --firmware-chroot 'true' \
      --security 'true' \
      --memtest 'none' \
-     --image-name 'Lilidog-Minimal-22.08.04' \
+     --image-name 'Lilidog-Minimal-22.08.05' \
      --iso-application 'Lilidog-Minimal' \
      --iso-publisher 'Lilidog-Minimal GNU/Linux' \
      --iso-volume 'LiliDog-Minimal' \
