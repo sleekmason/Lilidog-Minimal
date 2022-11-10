@@ -55,6 +55,7 @@ Xkill,               xkill,                                         edit-delete
 
 ^tag(utilities)
 Screenshot,         xfce4-screenshooter,              org.xfce.screenshooter
+lxtask,             lxtask,                           applications-engineering
 Gparted,            gksudo gparted,                   gparted
 Inxi Info,          x-terminal-emulator -T 'Inxi Info' -e bash -c "inxi -Fxrzm; echo $'\n\nPress any key to close'; read -srn1",   document-properties
 Hard Info,          hardinfo,                         /usr/share/hardinfo/pixmaps/logo.png

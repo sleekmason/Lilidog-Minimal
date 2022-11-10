@@ -118,6 +118,7 @@ lm-sensors
 locales
 lsb-release
 lxpolkit
+lxtask
 manpages
 manpages-dev
 meld
