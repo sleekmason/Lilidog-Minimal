@@ -146,6 +146,7 @@ net-tools
 netcat-openbsd
 network-manager-gnome
 ntfs-3g
+ntp
 obconf
 openbox
 os-prober
@@ -186,8 +187,6 @@ suckless-tools
 sudo
 sxhkd
 syslinux-common
-systemd-container
-systemd-timesyncd
 tasksel
 telnet
 thunar
