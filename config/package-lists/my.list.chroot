@@ -107,6 +107,7 @@ iw
 jp2a
 kbd
 krb5-locales
+libavcodec-extra
 libexo-2-0
 libfile-mimeinfo-perl
 libfm-modules
