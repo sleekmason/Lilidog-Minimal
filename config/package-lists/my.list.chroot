@@ -4,7 +4,6 @@ alsa-oss
 alsa-utils
 amd64-microcode
 anacron
-apt-listchanges
 apt-transport-https
 apt-utils
 at-spi2-core
@@ -16,8 +15,6 @@ breeze-icon-theme
 btrfs-progs
 bzip2
 catfish
-chafa
-colord
 conky-all
 console-data
 console-setup
@@ -28,10 +25,8 @@ cryptsetup-initramfs
 curl
 dbus-user-session
 dbus-x11
-debian-faq
 desktop-base
 dialog
-doc-debian
 dosfstools
 dunst
 e2fsprogs
@@ -103,10 +98,7 @@ imagemagick
 intel-microcode
 inxi
 isc-dhcp-client
-iw
-jp2a
 kbd
-krb5-locales
 libavcodec-extra
 libexo-2-0
 libfile-mimeinfo-perl
@@ -124,7 +116,6 @@ lsb-release
 lxpolkit
 lxtask
 manpages
-manpages-dev
 meld
 menu
 menu-xdg
@@ -136,17 +127,13 @@ mailcap
 mime-support
 mlocate
 mobile-broadband-provider-info
-modemmanager
 mokutil
 mtd-utils
-mtools
 nano
 ncdu
 ncurses-term
 neofetch
-netpbm
 net-tools
-netcat-openbsd
 network-manager-gnome
 ntfs-3g
 ntp
@@ -161,7 +148,6 @@ pcmciautils
 picom
 pnmixer
 powermgmt-base
-publicsuffix
 pulseaudio
 pulseaudio-utils
 python3-distro
@@ -176,7 +162,6 @@ qt5-gtk-platformtheme
 qt5-gtk2-platformtheme
 qt5-style-plugins
 rename
-reportbug
 rsync
 rtkit
 rtmpdump
@@ -216,7 +201,6 @@ wbar
 wbar-config
 wget
 wmctrl
-wvdial
 x11-apps
 x11-common
 x11-session-utils
@@ -233,7 +217,6 @@ xfce4-power-manager
 xfce4-screenshooter
 xfce4-settings
 xfce4-terminal
-xiccd
 xinput
 xml-core
 xmlstarlet
