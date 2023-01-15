@@ -108,6 +108,7 @@ liblockfile-bin
 libnotify-bin
 libnss-systemd
 libqt5svg5
+librsvg2-common
 lightdm
 lightdm-gtk-greeter-settings
 lm-sensors
