@@ -100,6 +100,7 @@ inxi
 isc-dhcp-client
 kbd
 libavcodec-extra
+libblockdev-crypto2
 libexo-2-0
 libfile-mimeinfo-perl
 libfm-modules
@@ -109,6 +110,7 @@ libnotify-bin
 libnss-systemd
 libqt5svg5
 librsvg2-common
+libvolume-key1
 lightdm
 lightdm-gtk-greeter-settings
 lm-sensors
